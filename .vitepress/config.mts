@@ -5,7 +5,7 @@ export default defineConfig({
   title: "RADPrint",
   description:
     "A simple document printing system.",
-  base: "/RADPrint-Documentation",
+  base: "/RADPrint-Documentation/",
   head: [["link", { rel: "icon", href: "/radapex-favicon.png" }]],
   cleanUrls: false,
   themeConfig: {
