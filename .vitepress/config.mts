@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "RADPrint",
   description: "A VitePress Site",
-  base: "/",
+  base: "/RADPrint-Documentation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
