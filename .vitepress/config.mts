@@ -15,6 +15,9 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Guide", link: "/getting-started" },
     ],
+    footer: {
+      message: 'If you require any APEX specialist support or consultancy contact us at contact@radapex.com or visit <a href="https://www.radapex.com">www.radapex.com</a>',
+    },
     search: {
       provider: "local",
     },
