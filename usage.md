@@ -1,9 +1,5 @@
 # Usage
 
-## Demo Application
-
-`https://oracleapex.com/ords/r/radapex/radprint-demo/home`
-
 ## Using RADPrint-Free
 
 To use RADPrint-Free, you must create your own template DOCx file. An example can be found in the repository -> `https://github.com/RADAPEX/RADPrint-Free/blob/main/example_template.docx`
