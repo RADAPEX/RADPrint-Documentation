@@ -37,14 +37,15 @@ Set to SQL Query Returning JSON
 
 4. **Write your query**
  
-Your SQL query must return JSON objects that match the placeholders in your DOCX template.
+Your SQL query must return JSON objects that match the placeholders in your DOCX template. The JSON object must return a CLOB.
 
 For example, if your template has {employee_name} your JSON must include "employee_name"
 
 ```sql
 SELECT JSON_OBJECT(
    'employee_name' VALUE employee_name,
-   'salary'        VALUE salary
+   'salary'        VALUE salary,
+   RETURNING CLOB
 ) AS json_data
 FROM employee
 WHERE employee_id = 100
